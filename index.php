@@ -2,7 +2,7 @@
 <html>
   <body>
     <?php
-    echo data('Y-m-d H:i:s');
+    echo date('Y-m-d H:i:s');
     ?>
   </body>
 </html>

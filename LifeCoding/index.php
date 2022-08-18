@@ -7,7 +7,7 @@
     <h1><a href='index.php'>WEB</a></h1>
     <ol>
       <?php
-        $list = scandir('data');
+        $list = scandir('./data');
         $i = 0;
         while($i<count($list)){
           if($list[$i] != '.') {

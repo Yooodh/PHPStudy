@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+  <body>
+    <!-- method를 지정하지 않으면 기본 값이 GET -->
+    <form action="form.php" method='post'>
+      <p><input type="text" name='title' placeholder='Title'></p>
+      <p><textarea name='description'></textarea></p>
+      <p><input type="submit"></p>
+    </form>
+  </body>
+</html>
+
+<!-- 
+  서버로 데이터를 전송할 때 
+  url을 통해서 전송할 때 : GET 방식
+  method를 생략하거나, method 속성 값으로 GET을 준다.
+  (북마크 용도로 적합, 데이터를 추가, 수정, 삭제할 때는 사용하면 안된다.)
+
+  사용자가 전송한 데이터가 
+  GET방식으로 오면 $_GET[]
+  POST방식으로 오면 $_POST[]
+-->

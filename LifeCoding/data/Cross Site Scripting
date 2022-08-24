@@ -1,0 +1,4 @@
+XSS
+<script>
+location.harf='https://naver.com'
+</script>
